@@ -15,12 +15,12 @@ const images = [
 const ulRef = document.querySelector(".gallery");
 
 const markUp = images.map(({ url, alt }) => {
-  return 
-    <li>
+  return ` <li>
       <img class="item" src="${url}" alt="${alt}" width="250" />
-    </li>
+    </li>`
   ; 
-}).join("");
+})
+.join("");
 
 ulRef.insertAdjacentHTML("beforeend", markUp);
 console.log(ulRef);
