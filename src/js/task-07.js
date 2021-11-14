@@ -7,3 +7,5 @@ refs.input.addEventListener('input', () => {
     const size = refs.input.value;
     refs.span.style.fontSize =`${size}px`;
 });
+
+

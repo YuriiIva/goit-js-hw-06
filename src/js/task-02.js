@@ -18,3 +18,4 @@ const markap = ingredients.map(element => {
 ulRef.append(...markap);
 console.log(ulRef);
  
+

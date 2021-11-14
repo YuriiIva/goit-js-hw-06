@@ -24,3 +24,4 @@ const markUp = images
 
 ulRef.insertAdjacentHTML("beforeend", markUp);
 console.log(ulRef);
+
