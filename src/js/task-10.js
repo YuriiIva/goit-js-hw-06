@@ -27,5 +27,10 @@ const handleCreate = () => {
   defAmount += +count;
   refs.divList.append(...arr);
 };
-
+const handleDestroy = () => {
+  arr = [];
+  defAmount = 0;
+  refs.divList.innerHTML = "";
+};
 refs.btnCreate.addEventListener("click", handleCreate);
+refs.btnDestroy.addEventListener("click", handleDestroy);
